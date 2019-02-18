@@ -6,6 +6,7 @@ if [ $# -gt 0 ]; then
 fi
 
 TOTAL=$(cat list.txt | wc -l)
+ARG=$RANDOM
 ARG=$((ARG % TOTAL + 1))
 #echo $ARG
 FILE_NAME=$(./query_list.sh $ARG);
