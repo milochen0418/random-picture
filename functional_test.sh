@@ -1,4 +1,5 @@
 #!/bin/bash
+./make_list.sh
 TOTAL=$(cat list.txt | wc -l)
 CNT=0
 rm -f test_result.txt
